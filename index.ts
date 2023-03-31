@@ -61,11 +61,17 @@ async function askQustion() {
           chalk.red(`${ans.num1} + ${ans.num2} = ${ans.num1 + ans.num2}`)
         );
       } else if (ans.operators == "Subtraction") {
-        console.log(`${ans.num1} - ${ans.num2} = ${ans.num1 - ans.num2}`);
+        console.log(
+          chalk.red(`${ans.num1} - ${ans.num2} = ${ans.num1 - ans.num2}`)
+        );
       } else if (ans.operators == "Multiplication") {
-        console.log(`${ans.num1} * ${ans.num2} = ${ans.num1 * ans.num2}`);
+        console.log(
+          chalk.red(`${ans.num1} * ${ans.num2} = ${ans.num1 * ans.num2}`)
+        );
       } else if (ans.operators == "Division") {
-        console.log(`${ans.num1} / ${ans.num2} = ${ans.num1 / ans.num2}`);
+        console.log(
+          chalk.red(`${ans.num1} / ${ans.num2} = ${ans.num1 / ans.num2}`)
+        );
       }
     });
 }
